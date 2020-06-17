@@ -1,0 +1,9 @@
+- hosts: all
+  gather_facts: True  ( This will check the connectivity between   master and other nodes)
+  become: true
+
+  vars:
+    java_version: "{{ java_version}}"
+
+  roles:
+    - role: install-java
