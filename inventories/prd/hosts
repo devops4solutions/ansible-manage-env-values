@@ -1,0 +1,3 @@
+# Here are common variable across environment
+
+java_path: /opt/java/home
