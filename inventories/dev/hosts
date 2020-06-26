@@ -1,6 +1,6 @@
 [all]
 application-0 ansible_host=1.1.1.1   ansible_user="{{ app0_user}}" ansible_sudo_pass="{{ app0_pass}}" ansible_password="{{ app0_pass}}"
-application-1 ansible_host=1.2.2.3   ansible_user="{{ app0_user}}" ansible_sudo_pass="{{ app0_pass}}" ansible_password="{{ app0_pass}}"
+application-1 ansible_host=1.2.2.3   ansible_user="{{ app1_user}}" ansible_sudo_pass="{{ app1_pass}}" ansible_password="{{ app1_pass}}"
 database-0    ansile_host=3.3.2.1
 
 
