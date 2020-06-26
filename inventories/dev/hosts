@@ -2,6 +2,8 @@
 application-0 ansible_host=1.1.1.1
 application-1 ansible_host=1.2.2.3
 database-0    ansile_host=3.3.2.1
+
+
 [application-nodes]
 application-0
 application-1
