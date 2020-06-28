@@ -4,3 +4,7 @@
 
 - name: add group database
   group: name={{database_password}}
+  
+- name: use variable from vault
+  group: name={{db_password}}
+  
