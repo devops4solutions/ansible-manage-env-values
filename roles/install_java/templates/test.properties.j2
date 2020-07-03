@@ -1,0 +1,8 @@
+test.jdbc.maxActive={{ test_jdbc_maxactive | default('60') }}
+{% if test_db_embedded %}
+test.embeddedDatabase.port={{ test_db_embedded_port | default('8080') }}
+{% else %}
+test.jdbc.username={{ test_db_user }}
+test.jdbc.password={{ test_db_pass }}
+test.jdbc.url={{ test_jdbc_url }}
+{% endif %}
