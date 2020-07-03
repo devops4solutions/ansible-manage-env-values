@@ -7,4 +7,9 @@
   
 - name: use variable from vault
   group: name={{db_password}}
+
+- name: "copy properties file using jinja template"
+  template:
+    src: "test.properties.j2"
+    dest: "test/test.properties"
   
