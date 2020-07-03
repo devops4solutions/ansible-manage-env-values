@@ -1,1 +1,6 @@
+test_maxActive: 60
 database_username: dev
+test_db_embedded: true
+test_db_embedded_port: 900
+test_db_user: "test"
+test_db_pass: "test"
